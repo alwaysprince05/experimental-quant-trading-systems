@@ -1,3 +1,12 @@
+---
+title: QuantLab Pro
+emoji: 💎
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+pinned: false
+---
+
 # Experimental Quant Trading Systems
 
 This repository contains three experimental trading systems built using synthetic data, machine learning, and quantitative modeling techniques. Each project is designed to explore how different market dynamics can be modeled and visualized using Python.
