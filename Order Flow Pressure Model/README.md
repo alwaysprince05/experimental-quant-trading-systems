@@ -1,5 +1,3 @@
-## Dev/Creator: tubakhxn
-
 # Order Flow Pressure Trading Model
 
 ## Project Overview

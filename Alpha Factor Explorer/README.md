@@ -1,6 +1,5 @@
 # Alpha Factor Explorer (Quant + AI Visualization)
 
-## Dev/Creator: tubakhxn
 
 ---
 

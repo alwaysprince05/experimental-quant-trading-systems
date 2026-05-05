@@ -1,6 +1,5 @@
 # Volatility Surface Trading System
 
-## dev/creator = tubakhxn
 
 ---
 
