@@ -89,17 +89,22 @@ They are not intended for real trading, financial advice, or investment decision
 
 # 🚀 Deployment (Hugging Face Spaces)
 
-This project is optimized for deployment on **Hugging Face Spaces** using Streamlit.
+This project is optimized for deployment on **Hugging Face Spaces**.
 
-### Steps to Deploy:
+### Option A: Using Docker (Recommended)
 1. Create a new Space on [Hugging Face](https://huggingface.co/new-space).
-2. Select **Streamlit** as the Space SDK.
-3. Push the code to the Space repository:
+2. Select **Docker** as the Space SDK.
+3. Select the **Blank** template.
+4. Push the code to the Space repository:
    ```bash
    git remote add hf https://huggingface.co/spaces/YOUR_USERNAME/YOUR_SPACE_NAME
    git push -f hf main
    ```
-4. Hugging Face will automatically detect `app.py` and `requirements.txt` and start the dashboard.
+
+### Option B: Using Streamlit SDK
+1. Create a new Space on [Hugging Face](https://huggingface.co/new-space).
+2. Select **Streamlit** as the Space SDK.
+3. Push the code to the Space repository.
 
 ---
 
