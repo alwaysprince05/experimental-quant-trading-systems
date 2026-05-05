@@ -85,6 +85,22 @@ They are not intended for real trading, financial advice, or investment decision
 
 ---
 
-# License
+---
 
-MIT License (recommended)
+# 🚀 Deployment (Hugging Face Spaces)
+
+This project is optimized for deployment on **Hugging Face Spaces** using Streamlit.
+
+### Steps to Deploy:
+1. Create a new Space on [Hugging Face](https://huggingface.co/new-space).
+2. Select **Streamlit** as the Space SDK.
+3. Push the code to the Space repository:
+   ```bash
+   git remote add hf https://huggingface.co/spaces/YOUR_USERNAME/YOUR_SPACE_NAME
+   git push -f hf main
+   ```
+4. Hugging Face will automatically detect `app.py` and `requirements.txt` and start the dashboard.
+
+---
+
+# License
